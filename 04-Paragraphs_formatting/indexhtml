@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Paragraphs formatting practice</title>
+</head>
+<body>
+    <h1>Paragraphs Formatting</h1>
+    <p> 
+        <u>Hello World!</u> This is me <b> learning code</b> .. Once again hello
+    </p>
+     <!-- <u></u> is used to underline text -->
+     <!-- <b></b> is used to make text bold -->
+     
+    <br/>   <!-- Used to add a line break -->
+     
+    <big>This tag shows the big font size.</big> 
+    <!-- <big></big> is used to increase text size -->
+    
+    <hr/>  <!-- Horizontal line to separate sections -->
+     
+    <small>This shows the small font size.</small>  
+    <!-- <small></small> is used to display smaller text -->
+</body>
+</html>
