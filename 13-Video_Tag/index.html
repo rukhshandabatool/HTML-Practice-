@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Video Tag </title>
+</head>
+<body>
+    <h1> Video Tag </h1>
+    <p> ~ Used to link videos in our webpages like we link images by using absolute & relative link. </p>
+
+    <h3> Video Tag has three attributes:- </h3>
+    <ul>
+        <li> controls </li> <!-- Used to enable a video to play -->
+        <li> width </li>    <!-- Used to set the width of video -->
+        <li> height </li>   <!-- Used to set the height of the video -->
+        <li> autoplay </li> <!-- It will play the video automatically -->
+        <li> loop </li>     <!-- Used to play the video again and again -->
+    </ul>
+    <br/>
+    <h3> Absolute link </h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=KwPrZVgDP6X8nsJR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br />
+
+    <h3> Relative Link </h3>
+    <video src="/cat_video.mp4" Width="500" height="300" controls> Cat_Video</video>
+
+    <h4> Applying loop attribute(This will play the video again and again) </h4>
+    <video src="/cat_video.mp4" Width="500" height="300" controls loop> Cat_Video</video>
+    
+    <h4> Applying autoplay attribute(This will play video automatically) </h4>
+    <p> ~ The autoplay attribute in HTML tells the browser to start playing the video (or audio) automatically as soon as it's ready — without the user having to press play.</p>
+    <video src="/cat_video.mp4" Width="500" height="300" autoplay controls> Cat_Video</video>
+</body>
+</html>
